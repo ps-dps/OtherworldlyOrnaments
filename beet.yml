@@ -1,0 +1,27 @@
+name: dpj11
+author: PuckiSilver
+version: v1.0.0
+output: build
+require:
+  - bolt
+
+data_pack:
+  load:
+    - libs/dp/*
+    - src
+  name: DPJ11
+  description: DPJ11
+
+resource_pack:
+  load:
+    # - libs/rp/*
+    - src
+  name: DPJ11-RP
+  description: DPJ11
+
+pipeline:
+  - mecha
+  - plugins.remove_empty_functions
+  - plugins.credit
+meta:
+  credit: [psmoba]
