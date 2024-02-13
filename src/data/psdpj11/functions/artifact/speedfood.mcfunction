@@ -9,13 +9,15 @@ loot_table ~/ {
             },
             {
                 "function": "minecraft:set_name",
-                "name": { "translate": "psdpj11.artifact.speedfood.name", "italic": false, "color": "aqua" }
+                "name": { "translate": "psdpj11.artifact.speedfood.name", "italic": false, "color": "light_purple" }
             },
             {
                 "function": "minecraft:set_lore",
                 "lore": [
                     { "translate": "item.modifiers.offhand", "color": "blue", "italic": false },
-                    [{"text":" "},{ "translate": "psdpj11.artifact.speedfood.desc1", "color": "gray", "italic": false }]
+                    [{"text":" "},{ "translate": "psdpj11.artifact.speedfood.desc1", "color": "gray", "italic": false }],
+                    [{"text":" "},{ "translate": "psdpj11.artifact.speedfood.desc2", "color": "gray", "italic": false }],
+                    [{"text":" "},{ "translate": "psdpj11.artifact.speedfood.desc3", "color": "gray", "italic": false }]
                 ]
             }
         ]
@@ -32,7 +34,7 @@ function ~/adjust:
     unless score @s psdpj11.speedfood.food = @s psdpj11.speedfood.food return 0
     scoreboard players operation @s psdpj11.speedfood.food2 = @s psdpj11.speedfood.food
     scoreboard players set #speedfood psdpj11 20
-    store result storage psdpj11:temp speedfood.food float 0.1 store result storage psdpj11:temp speedfood.jump float -0.02 scoreboard players operation #speedfood psdpj11 -= @s psdpj11.speedfood.food
+    store result storage psdpj11:temp speedfood.food float 0.13 store result storage psdpj11:temp speedfood.jump float -0.02 scoreboard players operation #speedfood psdpj11 -= @s psdpj11.speedfood.food
     function ~/../apply with storage psdpj11:temp speedfood
 
 

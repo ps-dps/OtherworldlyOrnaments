@@ -3,5 +3,10 @@
     "textures": {
         "layer0": "minecraft:item/warped_fungus_on_a_stick"
     },
-    "overrides": [{ "predicate": { "custom_model_data": 2557421 }, "model": "psdpj11:item/artifact/mining" }]
+    "overrides": [
+        { "predicate": { "custom_model_data": 2557421 }, "model": "psdpj11:item/artifact/mining" },
+        { "predicate": { "custom_model_data": 2557422 }, "model": "psdpj11:item/artifact/speedfood" },
+        { "predicate": { "custom_model_data": 2557423 }, "model": "psdpj11:item/artifact/voidfall" },
+        { "predicate": { "custom_model_data": 2557424 }, "model": "psdpj11:item/artifact/size" }
+    ]
 }

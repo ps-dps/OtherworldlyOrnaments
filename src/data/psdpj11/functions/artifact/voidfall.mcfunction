@@ -9,13 +9,15 @@ loot_table ~/ {
             },
             {
                 "function": "minecraft:set_name",
-                "name": { "translate": "psdpj11.artifact.voidfall.name", "italic": false, "color": "aqua" }
+                "name": { "translate": "psdpj11.artifact.voidfall.name", "italic": false, "color": "light_purple" }
             },
             {
                 "function": "minecraft:set_lore",
                 "lore": [
                     { "translate": "item.modifiers.offhand", "color": "blue", "italic": false },
-                    [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc1", "color": "gray", "italic": false }]
+                    [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc1", "color": "gray", "italic": false }],
+                    [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc2", "color": "gray", "italic": false }],
+                    [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc3", "color": "gray", "italic": false }]
                 ]
             }
         ]

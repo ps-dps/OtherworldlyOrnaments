@@ -9,13 +9,15 @@ loot_table ~/ {
             },
             {
                 "function": "minecraft:set_name",
-                "name": { "translate": "psdpj11.artifact.size.name", "italic": false, "color": "aqua" }
+                "name": { "translate": "psdpj11.artifact.size.name", "italic": false, "color": "light_purple" }
             },
             {
                 "function": "minecraft:set_lore",
                 "lore": [
                     { "translate": "item.modifiers.offhand", "color": "blue", "italic": false },
-                    [{"text":" "},{ "translate": "psdpj11.artifact.size.desc1", "color": "gray", "italic": false }]
+                    [{"text":" "},{ "translate": "psdpj11.artifact.size.desc1", "color": "gray", "italic": false }],
+                    [{"text":" "},{ "translate": "psdpj11.artifact.size.desc2", "color": "gray", "italic": false }],
+                    [{"text":" "},{ "translate": "psdpj11.artifact.size.desc3", "color": "gray", "italic": false }]
                 ]
             }
         ]
@@ -42,7 +44,7 @@ function ~/tick:
     store result storage psdpj11:temp size.scale float ( 1 / ((288+190) ** 3 )) scoreboard players get @s psdpj11.size
     scoreboard players add @s psdpj11.size ((288+190) ** 3) # back to scale centered on 1 (pos only)
     store result storage psdpj11:temp size.check float (0.3001 / ((288+190) ** 3)) scoreboard players get @s psdpj11.size
-    store result storage psdpj11:temp size.dist float (0.055 / ((288+190) ** 3 )) scoreboard players get @s psdpj11.size
+    store result storage psdpj11:temp size.dist float (0.03 / ((288+190) ** 3 )) scoreboard players get @s psdpj11.size
     store result storage psdpj11:temp size.off1 float (0.3 / ((288+190) ** 3 )) scoreboard players get @s psdpj11.size
     store result storage psdpj11:temp size.off2 float (0.2 / ((288+190) ** 3 )) scoreboard players get @s psdpj11.size
     store result storage psdpj11:temp size.off3 float (0.1 / ((288+190) ** 3 )) scoreboard players get @s psdpj11.size
