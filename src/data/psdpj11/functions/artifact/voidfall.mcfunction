@@ -49,7 +49,6 @@ function ~/out_of_this_world:
         item modify entity @s f'hotbar.{i}' ~/
     for i in range(27):
         item modify entity @s f'inventory.{i}' ~/
-    item modify entity @s weapon.offhand ~/
     item modify entity @s armor.head ~/
     item modify entity @s armor.chest ~/
     item modify entity @s armor.feet ~/
