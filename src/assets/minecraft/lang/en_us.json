@@ -19,5 +19,7 @@
     "psdpj11.artifact.voidfall.desc2":  "all your gear but you reappear",
     "psdpj11.artifact.voidfall.desc3":  "high up in the sky unharmed.",
 
+    "psdpj11.teleport.failure": "⚠ Couldn't find a safe place to teleport to.",
+
     "":""
 }

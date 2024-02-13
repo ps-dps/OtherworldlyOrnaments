@@ -3,6 +3,7 @@ append function_tag load:load {"values":["psdpj11:load"]}
 function ./load:
     scoreboard objectives add psdpj11 dummy
     scoreboard objectives add psdpj11.artifact dummy
+    scoreboard objectives add psdpj11.wfoas minecraft.used:minecraft.warped_fungus_on_a_stick
 
     function ./artifact/mining/load
     function ./artifact/speedfood/load
@@ -13,6 +14,7 @@ function ./load:
 
 function ./tick:
     schedule function ~/ 1t replace
+    as @a[scores={psdpj11.wfoas=1..}] at @s function ./wfoas/used
     as @a[scores={psdpj11.artifact=1},predicate=./artifact/mining/mined_block] at @s function ./artifact/mining/mined_block
     as @a[scores={psdpj11.artifact=2}] unless score @s psdpj11.speedfood.food = @s psdpj11.speedfood.food2 function ./artifact/speedfood/adjust
     as @a[scores={psdpj11.artifact=3}] at @s if entity @s[y=0,dy=-100000000] function ./artifact/voidfall/tick
