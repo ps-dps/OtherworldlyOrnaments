@@ -3,21 +3,33 @@
     "psdpj11.artifact.mining.desc1":    "Increase mining speed as you",
     "psdpj11.artifact.mining.desc2":    "mine but your tool will start",
     "psdpj11.artifact.mining.desc3":    "to burn your hands.",
+    "psdpj11.artifact.mining.lore1":    "This artifact stems from a world",
+    "psdpj11.artifact.mining.lore2":    "of immense heat and is said to",
+    "psdpj11.artifact.mining.lore3":    "have the ability to return to it.",
 
     "psdpj11.artifact.size.name":      "Alpgrow",
     "psdpj11.artifact.size.desc1":      "As you scale mountains, you grow",
     "psdpj11.artifact.size.desc2":      "to their size. As you dive into",
     "psdpj11.artifact.size.desc3":      "the depths, you shrink.",
+    "psdpj11.artifact.size.lore1":      "This artifact stems from a world",
+    "psdpj11.artifact.size.lore2":      "of the highest peaks and is said",
+    "psdpj11.artifact.size.lore3":      "to have the ability to return to it.",
 
     "psdpj11.artifact.speedfood.name": "Droughtstride",
     "psdpj11.artifact.speedfood.desc1": "As you lose saturation, your",
     "psdpj11.artifact.speedfood.desc2": "speed increases but your jump",
     "psdpj11.artifact.speedfood.desc3": "height decreases.",
+    "psdpj11.artifact.speedfood.lore1": "This artifact stems from an everflat",
+    "psdpj11.artifact.speedfood.lore2": "world and is said to have the",
+    "psdpj11.artifact.speedfood.lore3": "ability to return to it.",
 
     "psdpj11.artifact.voidfall.name":  "Voidfall",
     "psdpj11.artifact.voidfall.desc1":  "Falling into the void shatters",
     "psdpj11.artifact.voidfall.desc2":  "all your gear but you reappear",
     "psdpj11.artifact.voidfall.desc3":  "high up in the sky unharmed.",
+    "psdpj11.artifact.voidfall.lore1":  "This artifact stems from floating",
+    "psdpj11.artifact.voidfall.lore2":  "islands suspended above the void",
+    "psdpj11.artifact.voidfall.lore3":  "with the ability to return to them.",
 
     "psdpj11.teleport.failure": "⚠ Couldn't find a safe place to teleport to.",
 

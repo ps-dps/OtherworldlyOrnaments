@@ -17,7 +17,11 @@ loot_table ~/ {
                     { "translate": "item.modifiers.offhand", "color": "blue", "italic": false },
                     [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc1", "color": "gray", "italic": false }],
                     [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc2", "color": "gray", "italic": false }],
-                    [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc3", "color": "gray", "italic": false }]
+                    [{"text":" "},{ "translate": "psdpj11.artifact.voidfall.desc3", "color": "gray", "italic": false }],
+                    "",
+                    [{ "translate": "psdpj11.artifact.voidfall.lore1", "color": "dark_gray", "italic": true }],
+                    [{ "translate": "psdpj11.artifact.voidfall.lore2", "color": "dark_gray", "italic": true }],
+                    [{ "translate": "psdpj11.artifact.voidfall.lore3", "color": "dark_gray", "italic": true }],
                 ]
             }
         ]

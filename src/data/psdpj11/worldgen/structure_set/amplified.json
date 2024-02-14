@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "psdpj11:amplified",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 2100548576,
+        "spacing": 32,
+        "separation": 8
+    }
+}
