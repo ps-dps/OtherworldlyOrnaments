@@ -1,4 +1,4 @@
-name: dpj11
+name: OtherworldlyOrnaments
 author: PuckiSilver
 version: v1.0.0
 output: build
@@ -9,19 +9,19 @@ data_pack:
   load:
     - libs/dp/*
     - src
-  name: DPJ11
-  description: DPJ11
+  name: OtherworldlyOrnaments
+  description: Find ornaments stemming from other worlds that provide you with unique buffs and allow you to travel to their dimension
 
 resource_pack:
   load:
     # - libs/rp/*
     - src
-  name: DPJ11-RP
-  description: DPJ11
+  name: OtherworldlyOrnaments-RP
+  description: Find ornaments stemming from other worlds that provide you with unique buffs and allow you to travel to their dimension
 
 pipeline:
   - mecha
   - plugins.remove_empty_functions
   - plugins.credit
 meta:
-  credit: [psmoba]
+  credit: [psdpj11]
