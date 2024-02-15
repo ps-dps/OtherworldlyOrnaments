@@ -59,7 +59,7 @@ locate structure psdpj11:<...>
 ```
 
 ### Give yourself the Ornaments
-To **get one of the Ornaments**, you can run theh following **command in chat**:
+To **get one of the Ornaments**, you can run the following **command in chat**:
 ```mcfunction
 loot give @s loot psdpj11:artifact/<...>
 ```
