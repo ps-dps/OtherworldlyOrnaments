@@ -35,7 +35,7 @@ Increase mining speed as you mine but your tool will start to burn your hands.
 Falling into the void shatters all your gear but you reappear high up in the sky unharmed.
 
 ## New Dimensions
-Every ornament allows you to travel to it's dimension, for some ornaments, new dimensions are added
+Every ornament allows you to travel to it's dimension, for some ornaments, new dimensions are added.
 
 ### Amplified
 In this dimension the terrain is **amplified**, like the world generation type you can select when generating the world.
@@ -45,6 +45,34 @@ All biomes and structures are in the **same location** as they are in the overwo
 In this dimension, all surface blocks are at y=63 creating an almost perfectly **flat dimension**.
 This causes **oceans** to be **dry land** and **mountains** to be a **stoney surface** with **floating aquifers**.
 All biomes and structures are in the **same location** as they are in the overworld.
+
+## Technical Info
+Read this section if you want to **test the pack** or **modify things** about it.
+
+### Locate a newly added Structure
+To **locate a structure** near you, you can run the following **command in chat**:
+```mcfunction
+/locate structure psdpj11:<...>
+```
+
+### Give yourself the Ornaments
+To **get one of the Ornaments**, you can run theh following **command in chat**:
+```mcfunction
+/loot give @s loot psdpj11:artifact/<...>
+```
+
+### Modify what Biomes/Dimension the Structures Spawn in
+You can simply **add or remove biomes** from the **tags** located at:
+```
+data/psdpj11/tags/worldgen/biome/<...>.json
+```
+
+### Modify how often the Structures Spawn
+To make the structures **more or less common**, you can change the `"spacing"` and `"separation"` in the files located at:
+```
+data/psdpj11/worldgen/structure_set/<...>.json
+```
+Higher values make the structure spawn **less** frequently.
 
 ---
 [![PuckiSilver on GitHub](https://raw.githubusercontent.com/PuckiSilver/static-files/main/link_logos/GitHub.png)](https://github.com/PuckiSilver)[![PuckiSilver on modrinth](https://raw.githubusercontent.com/PuckiSilver/static-files/main/link_logos/modrinth.png)](https://modrinth.com/user/PuckiSilver)[![PuckiSilver on PlanetMinecraft](https://raw.githubusercontent.com/PuckiSilver/static-files/main/link_logos/PlanetMinecraft.png)](https://planetminecraft.com/m/PuckiSilver)[![PuckiSilver on PayPal](https://raw.githubusercontent.com/PuckiSilver/static-files/main/link_logos/PayPal.png)](https://paypal.me/puckisilver)
