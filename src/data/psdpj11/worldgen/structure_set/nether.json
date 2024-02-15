@@ -1,14 +1,14 @@
 {
     "structures": [
         {
-            "structure": "psdpj11:amplified",
+            "structure": "psdpj11:nether",
             "weight": 1
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "salt": 2100548576,
-        "spacing": 70,
-        "separation": 16
+        "salt": 2104202557,
+        "spacing": 60,
+        "separation": 15
     }
 }

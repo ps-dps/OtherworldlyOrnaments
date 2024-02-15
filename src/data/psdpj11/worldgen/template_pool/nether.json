@@ -1,0 +1,69 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "psdpj11:nether",
+                "processors": {
+                    "processors": [
+                        {
+                            "processor_type": "minecraft:block_rot",
+                            "integrity": 0.8,
+                            "rottable_blocks": [
+                                "minecraft:iron_bars",
+                                "minecraft:chain"
+                            ]
+                        },
+                        {
+                            "processor_type": "minecraft:rule",
+                            "rules": [
+                                {
+                                    "location_predicate": {
+                                        "predicate_type": "minecraft:always_true"
+                                    },
+                                    "input_predicate": {
+                                        "predicate_type": "minecraft:random_block_match",
+                                        "block": "minecraft:netherrack",
+                                        "probability": 0.08
+                                    },
+                                    "output_state": {
+                                        "Name": "minecraft:nether_gold_ore"
+                                    }
+                                },
+                                {
+                                    "location_predicate": {
+                                        "predicate_type": "minecraft:always_true"
+                                    },
+                                    "input_predicate": {
+                                        "predicate_type": "minecraft:random_block_match",
+                                        "block": "minecraft:netherrack",
+                                        "probability": 0.02
+                                    },
+                                    "output_state": {
+                                        "Name": "minecraft:ancient_debris"
+                                    }
+                                },
+                                {
+                                    "location_predicate": {
+                                        "predicate_type": "minecraft:always_true"
+                                    },
+                                    "input_predicate": {
+                                        "predicate_type": "minecraft:random_block_match",
+                                        "block": "minecraft:obsidian",
+                                        "probability": 0.25
+                                    },
+                                    "output_state": {
+                                        "Name": "minecraft:crying_obsidian"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
