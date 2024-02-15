@@ -33,5 +33,9 @@
 
     "psdpj11.teleport.failure": "⚠ Couldn't find a safe place to teleport to.",
 
+    "death.attack.psdpj11.mining":        "%1$s burned their hands by mining too fast",
+    "death.attack.psdpj11.mining.player": "%1$s burned their hands by mining too fast whilst fighting %2$s",
+    "death.attack.psdpj11.mining.item":   "%1$s burned their hands on %3$s by mining too fast",
+
     "":""
 }
