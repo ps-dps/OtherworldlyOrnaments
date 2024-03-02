@@ -4,7 +4,7 @@ Find **ornaments** stemming from **other worlds** that provide you with **unique
 _This data pack was made for [Data Pack Jam 11](https://www.planetminecraft.com/jam/datapackjam11/) within a week_
 
 > Warning:
-> ⚠ This pack only works in snapshot 24w06a or newer (1.20.5) ⚠
+> ⚠ This pack only works in snapshot 24w06a or 24w07a ⚠
 
 ---
 
